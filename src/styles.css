@@ -1,0 +1,206 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* This can be changed to match the design's font */
+    margin: 0;
+    padding: 0;
+    background-color: #4f5a4a; /* Dark Forest Green */
+    color: #6a6a69; /* Pale Silver */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #dadecd; /* Muted Sage */
+}
+
+h1 {
+  text-align: center;
+  padding: 25px;
+  margin: 5px;
+  font-size: 48px;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 300px;
+    font-size: 36px;
+}
+h3 {
+    text-align: right;
+    margin-right: 300px;
+    font-size: 36px;
+}
+h4 {
+    text-align: center;
+    font-size: 36px;
+}
+h5 {
+    text-align: center;
+    font-size: 36px;
+}
+
+a {
+    color: #dadecd; /* Light Gray */
+    text-decoration: none;
+}
+
+/* Section Styles */
+.section1 {
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+.section2 {
+    padding: 20px;
+    text-align: right;
+    
+}
+.section3 {
+    padding: 20px;
+    text-align: center;
+}
+.section4 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Mission Section */
+.mission {
+    background-image: linear-gradient(#9faa99,#7c8c76); /* Muted Sage */
+    
+}
+
+/* About Section */
+.about {
+    background-image: linear-gradient(#7c8c76, #afb2ab); /* Light Gray */
+}
+
+/* Appointment Section */
+.appointment {
+    background-image: linear-gradient(#afb2ab,#4f5a4a); /* Pale Silver */
+}
+
+/* Products Section */
+.products {
+    background-image: linear-gradient(#afb2ab, #7c8c76); /* Dark Forest Green */
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+/* Navbar Styles */
+.navbar-container {
+    background-color: #4f5a4a; /* Dark Forest Green */
+    color: #dadecd; /* Light Gray */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .navbar-link {
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    color: #dadecd; /* Light Gray */
+    transition: color 0.3s ease;
+    padding: 5px;
+    font-weight: 250;
+  }
+  
+  .navbar-link:hover {
+    color: #9faa99; /* Muted Sage */
+  }
+
+  .navbar-logo {
+    justify-content: flex-start;
+    margin-right: 1200px;
+  }
+
+  .img {
+    width: 300px;
+    height: 300px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    gap: 35px;
+    border-radius: 20px;
+    box-shadow: #6c6d6c;
+  }
+  .p1 {
+    color: #dadecd;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    padding: 5px;
+    font-size: 24px;
+  }
+  .p2 {
+    color: #dadecd;
+    width: 25%;
+    justify-content: end;
+    align-content: right;
+    position: relative;
+    margin-left: 65%;
+    padding: 5px;
+    text-align: right;
+    font-size: 24px;
+
+  }
+  .p3 {
+    color: #dadecd;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    margin-left: 25%;
+    padding: 5px;
+    font-size: 24px;
+
+  }
+  .p4 {
+    color: #dadecd;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    margin-left: 25%;
+    padding: 5px;
+    font-size: 24px;
+
+  }
+  
+  .bottle {
+    background-image: linear-gradient(#7c8c76, #afb2ab);
+    
+  }
+
+  .imglogo {
+    width: 400px;
+    height: 400px;
+    margin-left: 750px;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 35px;
+    border-radius: 20px;
+    box-shadow: #6c6d6c;
+  }
+
+  .lp {
+    background-color: #9faa99;
+  }
